@@ -1,0 +1,256 @@
+:root{
+   --salmon: #EF9D71;
+   --black: #001;
+   --white: #fff;
+   --cyan: #Aedee0;
+   --dsalmon: #532521;
+   --dcyan: #1f2f32;
+}
+
+/* Initially nav is transparent */
+.nav {
+   background-color: transparent;
+   transition: background-color 0.5s ease, color 0.5s ease;
+}
+
+/* After scroll trigger, apply the scrolled class */
+.nav.scrolled {
+   background-color: var(--black); /* Default background color, can be adjusted */
+   color: var(--white); /* Default text color, can be adjusted */
+}
+
+
+
+
+#vdodiv{
+   clip-path: circle(var(--clip) at 50% 46%);
+}
+
+*::selection{
+   background-color: #EF9D71;
+}
+
+@font-face {
+   font-family: Machina Lite;
+   src: url(./659dbdfd5a080be8d348316f_PPNeueMachina_\ Light.ttf);
+   font-weight: 400;
+}
+
+@font-face {
+   font-family: Neue Machina;
+   src: url(./659dbdfd5a080be8d348316e_PP\ Neue\ Machina\ Inktrap\ Medium.ttf);
+}
+
+body[theme="black"] .section {
+   color: white;
+   background-color: black;
+   transition: background-color 0.5s ease-out, color 0.5s ease-out;
+
+}
+
+body[theme="cyan"] .section{
+   color: #1f2f32;
+   background-color: #Aedee0;
+   transition: background-color 0.5s ease-out, color 0.5s ease-out;
+
+}
+
+body[theme="salmon"] .section{
+   color: #532521;
+   background-color: #EF9D71;
+   transition: background-color 0.5s ease-out, color 0.5s ease-out;
+
+}
+
+body[theme="white"] .section{
+   color: black;
+   background-color: white;
+   transition: background-color 0.5s ease-out, color 0.5s ease-out;
+
+}
+
+
+
+
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: 'Gilroy';
+   font-family: Neue Machina;
+}
+
+html, body {
+   width: 100%;
+   height: 100%;
+   background-color: black;
+   transition: background-color 0.5s ease-out, color 0.5s ease-out;
+
+}
+
+.human span{
+   font-family: Machina Lite;
+}
+
+.real span{
+   font-family: Machina Lite;
+}
+
+.real2 span{
+   font-family: Machina Lite;
+}
+
+.explore span{
+   font-family: Machina Lite;
+}
+
+.build span{
+   font-family: Machina Lite;
+}
+
+.sign span{
+   font-family: Machina Lite;
+}
+
+#marqueeContainer #row h1{
+   font-family: Neue Machina;
+}
+
+#slide .text h1{
+   font-family: Neue Machina;
+}
+
+.list .listelem .left h3{
+   font-family: Machina Lite ;
+}
+
+.list .listelem .left h1{
+   font-family: Machina Lite ;
+}
+
+.listelem .bluelayer {
+   transition: all linear 0.2s;
+   height: 0%;  /* Default height 0% rakhi hai */
+}
+
+.listelem .naam{
+   transition: all ease 0.5s;
+}
+
+#smallSignifico h3 {
+   color: white;
+   transition: color 0.3s ease;
+   cursor: pointer;
+ }
+ 
+#smallSignifico h3:hover {
+   color: #F5F19C;
+ }
+
+ .f-right i{
+   color: white;
+   transition: color 0.3s ease;
+   cursor: pointer;
+ }
+
+ .f-right i:hover{
+   color: #F5F19C;
+ }
+
+ #masker i {
+   transition: transform 0.3s ease-in-out;
+   transform: scale(1.5);
+ }
+ 
+ #masker:hover i {
+   transform: rotate(45deg) scale(1.5);
+ }
+ 
+ .btn .letter {
+   display: inline-block;
+   transition: transform 0.3s cubic-bezier(0.76, 0, 0.024, 1);
+ }
+ 
+ #masker:hover .btn .letter {
+   transform: translateY(-100%);
+ }
+ 
+.letter:nth-child(1){
+   transition-delay: 0s;
+}
+
+.letter:nth-child(2){
+   transition-delay: 0.03s;
+}
+
+.letter:nth-child(3){
+   transition-delay: 0.06s;
+}
+
+.letter:nth-child(4){
+   transition-delay: 0.09s;
+}
+
+.letter:nth-child(5){
+   transition-delay: 0.12s;
+}
+
+.letter:nth-child(6){
+   transition-delay: 0.15s;
+}
+
+.letter:nth-child(7){
+   transition-delay: 0.18s;
+}
+
+.letter:nth-child(8){
+   transition-delay: 0.21s;
+}
+
+.letter:nth-child(9){
+   transition-delay: 0.24s;
+}
+
+.letter:nth-child(10){
+   transition-delay: 0.27s;
+}
+
+.letter:nth-child(11){
+   transition-delay: 0.3s;
+}
+
+.letter:nth-child(12){
+   transition-delay: 0.33s;
+}
+
+.letter:nth-child(13){
+   transition-delay: 0.36s;
+}
+
+.letter:nth-child(14){
+   transition-delay: 0.39s;
+}
+ 
+.letter:nth-child(15){
+   transition-delay: 0.42s;
+}
+
+.letter:nth-child(16){
+   transition-delay: 0.45s;
+}
+
+.letter:nth-child(17){
+   transition-delay: 0.48s;
+}
+
+.letter:nth-child(18){
+   transition-delay: 0.51s;
+}
+
+.letter:nth-child(19){
+   transition-delay: 0.54s;
+}
+
+.letter:nth-child(20){
+   transition-delay: 0.57s;
+}
